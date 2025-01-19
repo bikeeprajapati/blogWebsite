@@ -82,7 +82,7 @@ USE_TZ = True
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 LOGIN_REDIRECT_URL = 'blog-index'
-LOGOUT_REDIRECT_URL = '/login/'  # Redirect to login page after logout
+ 
 
 STATIC_URL = 'static/'
 
