@@ -19,8 +19,8 @@ def sign_up(request):
     }
     return render(request, 'users/sign_up.html', context)
 def logout_view(request):
-    """A customised logout page"""
     logout(request)
     return render(request, 'users/logout.html')
 
-
+def profile(request):
+    return render(request, 'users/profile.html')
